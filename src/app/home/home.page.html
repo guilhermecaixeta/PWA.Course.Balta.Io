@@ -1,14 +1,32 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Balta.io Course</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="camera"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
     The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be
+      your guide.</p>
   </div>
 </ion-content>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="login">
+      <ion-label>Login</ion-label>
+      <ion-icon name="key"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="signup">
+      <ion-label>Signup</ion-label>
+      <ion-icon name="create"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
