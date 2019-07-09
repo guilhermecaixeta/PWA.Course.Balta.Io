@@ -16,8 +16,8 @@ import { HomePage } from './home.page';
         path: '',
         component: HomePage,
         children: [
-          { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
-          { path: 'signup', loadChildren: './signup/signup.module#SignupPageModule' }
+          { path: 'login', loadChildren: '../login/login.module#LoginPageModule' },
+          { path: 'signup', loadChildren: '../signup/signup.module#SignupPageModule' }
         ]
       }
     ])
